@@ -14,24 +14,46 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #873C95;
+}
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #3EA2BC;
+}
+
+.bg-color-groups {
+    background-color: #FAFAFA;
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #74397E;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #873C95;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #3EB798;
 }
 
-.ui-menu-color-download {
+.ui-menu-color-interests {
+    background-color: #3EA2BC;
+}
+
+.ui-menu-color-github {
+    background-color: #3E6CC1;
+}
+
+.ui-menu-color-download,
+.progress-bar {
     background-color: #525252;
 }
+
 
 body {
     font-family: "roboto", sans-serif;
@@ -73,12 +95,17 @@ h4 {
 }
 
 .history-heading,
-.section-heading {
+.section-heading,
+.interests-heading {
     color: #525252;
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+a {
+    color: #3EA2BC;
 }
 
 
@@ -187,7 +214,7 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover {
-    color: #e84610;
+    color: #3EB798;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -214,7 +241,7 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #3EB798;
 
 }
 
@@ -227,7 +254,7 @@ footer .cv-pdf i:hover {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e67e22;
+    color: #74397E;
 }
 
 .three-reasons-heading {
@@ -244,7 +271,7 @@ footer .cv-pdf i:hover {
 
 .personal-info-item .key,
 .personal-info-item .value {
-    padding-right:8px;
+    padding-right: 8px;
 }
 
 .personal-info-item .key p,
@@ -271,10 +298,11 @@ footer .cv-pdf i:hover {
 }
 
 /*----------------------------Skills*/
+
 .progress {
     position: relative;
     height: 25px;
-    
+
 }
 
 .progress-type {
@@ -283,15 +311,19 @@ footer .cv-pdf i:hover {
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25,25,25,0.2)
+    background-color: rgba(25, 25, 25, 0.2)
 }
 
 .progress-section {
     margin: 40px 20px;
 }
 
-/*----------------------------Work history*/
+.skills-icon {
+    font-size: 26px;
+    color: #873C95;
+}
 
+/*----------------------------Work history*/
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -339,11 +371,64 @@ footer .cv-pdf i:hover {
     margin-bottom: 50px;
 }
 
+/*----------------------------Interests*/
+
+.interests-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.interests-icon {
+    font-size: 26px;
+    color: #3EA2BC;
+}
+
+
+/*----------------------------contact*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #3EB798;
+    color: #fafafa;
+    transition: ease-in-out;
+}
+
+.btn:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fafafa;
+}
+
+
 /*----------------------------Media queries*/
+
 @media(min-width:992px) {
     .section-column {
         padding: 0 30px 30px;
         float: none;
         display: table-cell;
     }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        min-width: 50%;
+    }
+
+
 }
