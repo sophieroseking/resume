@@ -34,7 +34,7 @@
 }
 
 .ui-menu-color-resume {
-    background-color: #873C95;
+    background-color: #9d45ad;
 }
 
 .ui-menu-color-contact {
@@ -42,7 +42,7 @@
 }
 
 .ui-menu-color-interests {
-    background-color: #3EA2BC;
+    background-color: #9d45ad;
 }
 
 .ui-menu-color-github {
@@ -380,7 +380,7 @@ footer .cv-pdf i:hover {
 
 .interests-icon {
     font-size: 26px;
-    color: #3EA2BC;
+    color: #9d45ad;
 }
 
 div#map {min-height: 360px;}
