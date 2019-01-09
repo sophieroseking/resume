@@ -14,7 +14,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #873C95;
+    background-color: #9d45ad;
 }
 
 .bg-color-contact {
@@ -42,7 +42,7 @@
 }
 
 .ui-menu-color-interests {
-    background-color: #9d45ad;
+    background-color: #3EA2BC;
 }
 
 .ui-menu-color-github {
@@ -320,7 +320,7 @@ footer .cv-pdf i:hover {
 
 .skills-icon {
     font-size: 26px;
-    color: #873C95;
+    color: #9d45ad;
 }
 
 /*----------------------------Work history*/
@@ -380,7 +380,7 @@ footer .cv-pdf i:hover {
 
 .interests-icon {
     font-size: 26px;
-    color: #9d45ad;
+    color: #3EA2BC;
 }
 
 div#map {min-height: 360px;}
