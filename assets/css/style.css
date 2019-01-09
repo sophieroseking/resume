@@ -383,6 +383,8 @@ footer .cv-pdf i:hover {
     color: #3EA2BC;
 }
 
+div#map {min-height: 360px;}
+
 
 /*----------------------------contact*/
 
