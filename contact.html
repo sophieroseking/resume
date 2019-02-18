@@ -10,16 +10,16 @@
     <title>Sophie Rose King | Contact</title>
 
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init("user_eOnIdyBhr7tVewBCkcrdE");
-            /* emailjs.send("gmail", "sophie", {
-                name: "Sophie",
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init(" user_eOnIdyBhr7tVewBCkcrdE");
+      emailjs.send("gmail", "rosie", {
+                name: "Aaron",
                 notes: "The project that I want is..."
-            });*/
-        }); 
-    </script>
-
+            });
+   })();
+</script>
 </head>
 
 <body>
@@ -66,10 +66,10 @@
                 <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
                 <h5 class="uppercase text-center">Let's work together</h5>
             </div>
-            <div class="center-form">
-                <form onsubmit="return sendMail(this);" method:"POST">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
+             <div class="center-form">
+                <form>
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
                     <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
                 </form>
